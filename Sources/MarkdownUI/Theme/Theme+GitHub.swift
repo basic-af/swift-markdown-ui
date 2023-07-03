@@ -17,7 +17,7 @@ extension Theme {
   public static let gitHub = Theme()
     .text {
       ForegroundColor(.text)
-      BackgroundColor(.background)
+      BackgroundColor(.clear)
       FontSize(16)
     }
     .code {
